@@ -324,7 +324,7 @@ body {
   font-family: Fira Sans, Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.81;
-  color: #555;
+  color: #c5c6c7;
   background-color: #fff;
 }
 
@@ -436,7 +436,7 @@ h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
-  color: #7FF2F9;
+  color: #48c5b6;
 }
 
 .h1 .small,
@@ -2939,7 +2939,7 @@ fieldset[disabled] a.btn {
 .btn-default:active,
 .btn-default:hover,
 .open > .btn-default.dropdown-toggle {
-  color: #333;
+  color:#48c5b6;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
@@ -2984,15 +2984,15 @@ fieldset[disabled] .btn-default:hover {
 
 .btn-primary {
   color: #fff;
-  background-color: #7FF2F9;
-  border-color: #7FF2F9;
+  background-color: #48c5b6;
+  border-color: #48c5b6;
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
   color: #fff;
-  background-color: #7FF2F9;
-  border-color: #7FF2F9;
+  background-color: #48c5b6;
+  border-color: #48c5b6;
 }
 
 .btn-primary.active,
@@ -3000,8 +3000,8 @@ fieldset[disabled] .btn-default:hover {
 .btn-primary:hover,
 .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #652fff;
-  border-color: #5e25ff;
+  background-color: #419187;
+  border-color: #419187;
 }
 
 .btn-primary.active.focus,
@@ -3014,8 +3014,8 @@ fieldset[disabled] .btn-default:hover {
 .open > .btn-primary.dropdown-toggle:focus,
 .open > .btn-primary.dropdown-toggle:hover {
   color: #fff;
-  background-color: #4b0bff;
-  border-color: #3b00e2;
+  background-color: #419187;
+  border-color: #419187;
 }
 
 .btn-primary.active,
@@ -4583,7 +4583,7 @@ tbody.collapse.in {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-  color: #333;
+  color: #48c5b6;
   background-color: transparent;
 }
 
@@ -5717,7 +5717,11 @@ body {
 }
 
 .background-color-container {
-  background-color: #0c0633;
+  background-color: #074b57;
+  padding: 60px 0;
+}
+.background-color-container-other {
+  background-color: #09252b;
   padding: 60px 0;
 }
 
@@ -5754,7 +5758,7 @@ body {
 }
 
 .fa-icon {
-  color: #000;
+  color: #fff;
   width: 32px;
   height: 32px;
   line-height: 32px;
@@ -5771,7 +5775,7 @@ body {
 
 .fa-container {
   text-align: center;
-  color: #0c0633;
+  color: #48c5b6;
 }
 
 blockquote {
@@ -5859,8 +5863,8 @@ h2 {
   content: "\F00C";
   position: absolute;
   left: -40px;
-  color: #8b62ff;
-  border: 1px solid #8b62ff;
+  color: #48c5b6;
+  border: 1px solid #48c5b6;
   width: 24px;
   height: 24px;
   line-height: 24px;
