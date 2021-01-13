@@ -5680,7 +5680,9 @@ button.close {
 }
 
 .navbar-logo-img {
-  margin-top: -4px;
+  margin-top: -10px;
+  max-width: 150px;
+  height: auto;
 }
 
 .navbar-btn {
