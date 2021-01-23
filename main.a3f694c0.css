@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=La+Belle+Aurore|Fira+Sans:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+/* @import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap); */
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap'); */
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
 /*!
@@ -219,6 +222,69 @@ th {
   padding: 0;
 }
 
+/* Dropdown Button */
+.drppbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.drpdown {
+  position: relative;
+  display: inline-block;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.drpdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 290px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.drpdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.drpdown-content a:hover {color: #48c5b6;
+  background-color: transparent;
+text-decoration: none;}
+
+/* Show the dropdown menu on hover */
+.drpdown:hover .drpdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.drpdown:hover .drpbtn {background-color: #000;}
+
+
+
+
+
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
@@ -321,7 +387,7 @@ html {
 }
 
 body {
-  font-family: Fira Sans, Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 15px;
   line-height: 1.81;
   color: #c5c6c7;
@@ -5677,7 +5743,9 @@ button.close {
 }
 
 .navbar-logo-img {
-  margin-top: -4px;
+  margin-top: -10px;
+  max-width: 150px;
+  height: auto;
 }
 
 .navbar-btn {
